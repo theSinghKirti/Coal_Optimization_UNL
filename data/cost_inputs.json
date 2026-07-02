@@ -1,0 +1,222 @@
+[
+  {
+    "plant": "Anpara",
+    "company": "NCL",
+    "linkage_type": "Linkage",
+    "landed_cost_rs_mt": 2947,
+    "gcv_kcal_kg": null,
+    "variable_cost_rs_kwh": 2.5081532608695656,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Obra B",
+    "company": "NCL",
+    "linkage_type": "Linkage",
+    "landed_cost_rs_mt": 3049.8,
+    "gcv_kcal_kg": null,
+    "variable_cost_rs_kwh": 2.814435,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Obra C",
+    "company": "NCL",
+    "linkage_type": "Bridge Linkage",
+    "landed_cost_rs_mt": 3595,
+    "gcv_kcal_kg": null,
+    "variable_cost_rs_kwh": 2.5500533333333335,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Obra C",
+    "company": "BCCL",
+    "linkage_type": "Bridge Linkage",
+    "landed_cost_rs_mt": 6041,
+    "gcv_kcal_kg": null,
+    "variable_cost_rs_kwh": 4.285082666666667,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Panki",
+    "company": "NCL",
+    "linkage_type": "Bridge Linkage",
+    "landed_cost_rs_mt": 4497,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.2666208,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Panki",
+    "company": "BCCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 6526,
+    "gcv_kcal_kg": 4100,
+    "variable_cost_rs_kwh": 4.6012650666666675,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Panki",
+    "company": "CCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 4313,
+    "gcv_kcal_kg": 3400,
+    "variable_cost_rs_kwh": 3.2203733333333333,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Harduaganj",
+    "company": "BCCL",
+    "linkage_type": "Linkage",
+    "landed_cost_rs_mt": 6691,
+    "gcv_kcal_kg": 4100,
+    "variable_cost_rs_kwh": 5.090978260869565,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Harduaganj",
+    "company": "CCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 4513,
+    "gcv_kcal_kg": 3400,
+    "variable_cost_rs_kwh": 3.644738043478261,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Harduaganj E               ( 1X660 MW)",
+    "company": "CCL",
+    "linkage_type": "Bridge Linkage ",
+    "landed_cost_rs_mt": 4864,
+    "gcv_kcal_kg": 3400,
+    "variable_cost_rs_kwh": 3.6317866666666663,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Harduaganj E               ( 1X660 MW)",
+    "company": "NCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 5056,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.6133546666666665,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Harduaganj E               ( 1X660 MW)",
+    "company": "BCCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 7055,
+    "gcv_kcal_kg": 4100,
+    "variable_cost_rs_kwh": 4.891466666666667,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Harduaganj E               ( 1X660 MW)",
+    "company": "SECL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 5325,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.8056,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Parichha",
+    "company": "NCL",
+    "linkage_type": "Linkage",
+    "landed_cost_rs_mt": 4513,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.7281304347826087,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Parichha",
+    "company": "SECL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 4635.9,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.82965652173913,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Parichha",
+    "company": "BCCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 6484,
+    "gcv_kcal_kg": 4100,
+    "variable_cost_rs_kwh": 5.074434782608695,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Parichha",
+    "company": "CCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 4308,
+    "gcv_kcal_kg": 3400,
+    "variable_cost_rs_kwh": 3.558782608695652,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "ECL",
+    "linkage_type": "Bridge Linkage ",
+    "landed_cost_rs_mt": 5087,
+    "gcv_kcal_kg": null,
+    "variable_cost_rs_kwh": 3.9068159999999996,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "NCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 5076,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.627648,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "CCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 4915,
+    "gcv_kcal_kg": 3400,
+    "variable_cost_rs_kwh": 3.570256,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "BCCL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 7076,
+    "gcv_kcal_kg": 4100,
+    "variable_cost_rs_kwh": 4.9060266666666665,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "SECL",
+    "linkage_type": null,
+    "landed_cost_rs_mt": 5305,
+    "gcv_kcal_kg": 3600,
+    "variable_cost_rs_kwh": 3.791306666666667,
+    "period": "End of April 2026",
+    "source": "VC for last 5 months for UNL and IPPs.xlsx, Sheet2"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "plant": "Anpara",
+    "company": "NCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 118.64,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Harduaganj Extn-II",
+    "company": "CCL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 12.33,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Harduaganj Extn-II",
+    "company": "SECL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 13.59,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Harduaganj",
+    "company": "BCCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 2.82,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Harduaganj",
+    "company": "CCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 21.69,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "BCCL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 10.03,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "ECL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 11.05,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Obra",
+    "company": "BCCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 0.0,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Jawaharpur",
+    "company": "SECL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 27.17,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Obra",
+    "company": "NCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 36.18,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Obra C",
+    "company": "BCCL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 20.05,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Parichha",
+    "company": "CCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 8.08,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Obra C",
+    "company": "NCL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 22.69,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  },
+  {
+    "plant": "Parichha",
+    "company": "NCL",
+    "linkage_type": "FSA",
+    "acq_lac_mt": 32.47,
+    "valid_to": null,
+    "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+  },
+  {
+    "plant": "Panki Extn",
+    "company": "CCL",
+    "linkage_type": "BRIDGE_LINKAGE",
+    "acq_lac_mt": 24.66,
+    "valid_to": "12.08.2026",
+    "source_clause": "Bridge Linkage Valid till 12.08.2026"
+  }
+]

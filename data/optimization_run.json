@@ -1,0 +1,134 @@
+{
+  "status": "Optimal",
+  "plants_covered": [
+    "Anpara",
+    "Harduaganj",
+    "Jawaharpur",
+    "Obra B",
+    "Obra C",
+    "Panki Extn",
+    "Parichha"
+  ],
+  "total_optimized_cost_rs": 12760455627.0,
+  "baseline_cost_rs": 12601170141.0,
+  "estimated_savings_rs": -159285486.0,
+  "estimated_savings_pct": -1.26,
+  "allocations": [
+    {
+      "plant": "Anpara",
+      "company": "NCL",
+      "allocated_mt": 988666.7,
+      "landed_cost_rs_mt": 2947,
+      "acq_cap_mt": 988666.7,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Harduaganj",
+      "company": "CCL",
+      "allocated_mt": 180750.0,
+      "landed_cost_rs_mt": 4513,
+      "acq_cap_mt": 180750.0,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Harduaganj",
+      "company": "BCCL",
+      "allocated_mt": 23500.0,
+      "landed_cost_rs_mt": 6691,
+      "acq_cap_mt": 23500.0,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Jawaharpur",
+      "company": "SECL",
+      "allocated_mt": 226416.7,
+      "landed_cost_rs_mt": 5305,
+      "acq_cap_mt": 226416.7,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Jawaharpur",
+      "company": "ECL",
+      "allocated_mt": 92083.3,
+      "landed_cost_rs_mt": 5087,
+      "acq_cap_mt": 92083.3,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Jawaharpur",
+      "company": "BCCL",
+      "allocated_mt": 83500.0,
+      "landed_cost_rs_mt": 7076,
+      "acq_cap_mt": 83583.3,
+      "acq_utilisation_pct": 99.9
+    },
+    {
+      "plant": "Obra B",
+      "company": "NCL",
+      "allocated_mt": 301333.0,
+      "landed_cost_rs_mt": 3049.8,
+      "acq_cap_mt": 301500.0,
+      "acq_utilisation_pct": 99.9
+    },
+    {
+      "plant": "Obra C",
+      "company": "NCL",
+      "allocated_mt": 189083.3,
+      "landed_cost_rs_mt": 3595,
+      "acq_cap_mt": 189083.3,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Obra C",
+      "company": "BCCL",
+      "allocated_mt": 166916.7,
+      "landed_cost_rs_mt": 6041,
+      "acq_cap_mt": 167083.3,
+      "acq_utilisation_pct": 99.9
+    },
+    {
+      "plant": "Panki Extn",
+      "company": "CCL",
+      "allocated_mt": 205500.0,
+      "landed_cost_rs_mt": 4313,
+      "acq_cap_mt": 205500.0,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Parichha",
+      "company": "NCL",
+      "allocated_mt": 270583.3,
+      "landed_cost_rs_mt": 4513,
+      "acq_cap_mt": 270583.3,
+      "acq_utilisation_pct": 100.0
+    },
+    {
+      "plant": "Parichha",
+      "company": "CCL",
+      "allocated_mt": 67333.3,
+      "landed_cost_rs_mt": 4308,
+      "acq_cap_mt": 67333.3,
+      "acq_utilisation_pct": 100.0
+    }
+  ],
+  "shortfalls": [
+    {
+      "plant": "Harduaganj",
+      "shortfall_mt": 199417.0,
+      "assumed_market_rate_rs_mt": 7563.0,
+      "note": "Demand exceeds combined FSA + Bridge Linkage ACQ available this month; sourced via e-auction/spot market at an assumed premium."
+    },
+    {
+      "plant": "Panki Extn",
+      "shortfall_mt": 167.0,
+      "assumed_market_rate_rs_mt": 5823.0,
+      "note": "Demand exceeds combined FSA + Bridge Linkage ACQ available this month; sourced via e-auction/spot market at an assumed premium."
+    },
+    {
+      "plant": "Parichha",
+      "shortfall_mt": 16750.3,
+      "assumed_market_rate_rs_mt": 5954.0,
+      "note": "Demand exceeds combined FSA + Bridge Linkage ACQ available this month; sourced via e-auction/spot market at an assumed premium."
+    }
+  ]
+}

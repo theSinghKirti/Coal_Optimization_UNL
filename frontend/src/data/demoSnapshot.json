@@ -1,0 +1,373 @@
+{
+  "optimization": {
+    "status": "Optimal",
+    "plants_covered": [
+      "Anpara",
+      "Harduaganj",
+      "Jawaharpur",
+      "Obra B",
+      "Obra C",
+      "Panki Extn",
+      "Parichha"
+    ],
+    "total_optimized_cost_rs": 12760455627.0,
+    "baseline_cost_rs": 12601170141.0,
+    "estimated_savings_rs": -159285486.0,
+    "estimated_savings_pct": -1.26,
+    "allocations": [
+      {
+        "plant": "Anpara",
+        "company": "NCL",
+        "allocated_mt": 988666.7,
+        "landed_cost_rs_mt": 2947,
+        "acq_cap_mt": 988666.7,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Harduaganj",
+        "company": "CCL",
+        "allocated_mt": 180750.0,
+        "landed_cost_rs_mt": 4513,
+        "acq_cap_mt": 180750.0,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Harduaganj",
+        "company": "BCCL",
+        "allocated_mt": 23500.0,
+        "landed_cost_rs_mt": 6691,
+        "acq_cap_mt": 23500.0,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Jawaharpur",
+        "company": "SECL",
+        "allocated_mt": 226416.7,
+        "landed_cost_rs_mt": 5305,
+        "acq_cap_mt": 226416.7,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Jawaharpur",
+        "company": "ECL",
+        "allocated_mt": 92083.3,
+        "landed_cost_rs_mt": 5087,
+        "acq_cap_mt": 92083.3,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Jawaharpur",
+        "company": "BCCL",
+        "allocated_mt": 83500.0,
+        "landed_cost_rs_mt": 7076,
+        "acq_cap_mt": 83583.3,
+        "acq_utilisation_pct": 99.9
+      },
+      {
+        "plant": "Obra B",
+        "company": "NCL",
+        "allocated_mt": 301333.0,
+        "landed_cost_rs_mt": 3049.8,
+        "acq_cap_mt": 301500.0,
+        "acq_utilisation_pct": 99.9
+      },
+      {
+        "plant": "Obra C",
+        "company": "NCL",
+        "allocated_mt": 189083.3,
+        "landed_cost_rs_mt": 3595,
+        "acq_cap_mt": 189083.3,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Obra C",
+        "company": "BCCL",
+        "allocated_mt": 166916.7,
+        "landed_cost_rs_mt": 6041,
+        "acq_cap_mt": 167083.3,
+        "acq_utilisation_pct": 99.9
+      },
+      {
+        "plant": "Panki Extn",
+        "company": "CCL",
+        "allocated_mt": 205500.0,
+        "landed_cost_rs_mt": 4313,
+        "acq_cap_mt": 205500.0,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Parichha",
+        "company": "NCL",
+        "allocated_mt": 270583.3,
+        "landed_cost_rs_mt": 4513,
+        "acq_cap_mt": 270583.3,
+        "acq_utilisation_pct": 100.0
+      },
+      {
+        "plant": "Parichha",
+        "company": "CCL",
+        "allocated_mt": 67333.3,
+        "landed_cost_rs_mt": 4308,
+        "acq_cap_mt": 67333.3,
+        "acq_utilisation_pct": 100.0
+      }
+    ],
+    "shortfalls": [
+      {
+        "plant": "Harduaganj",
+        "shortfall_mt": 199417.0,
+        "assumed_market_rate_rs_mt": 7563.0,
+        "note": "Demand exceeds combined FSA + Bridge Linkage ACQ available this month; sourced via e-auction/spot market at an assumed premium."
+      },
+      {
+        "plant": "Panki Extn",
+        "shortfall_mt": 167.0,
+        "assumed_market_rate_rs_mt": 5823.0,
+        "note": "Demand exceeds combined FSA + Bridge Linkage ACQ available this month; sourced via e-auction/spot market at an assumed premium."
+      },
+      {
+        "plant": "Parichha",
+        "shortfall_mt": 16750.3,
+        "assumed_market_rate_rs_mt": 5954.0,
+        "note": "Demand exceeds combined FSA + Bridge Linkage ACQ available this month; sourced via e-auction/spot market at an assumed premium."
+      }
+    ]
+  },
+  "daily_fuel": [
+    {
+      "plant": "Anpara",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 988667,
+      "opening_balance": 322954,
+      "receipt": 27544,
+      "consumption_release": 40588,
+      "closing_balance": 309910,
+      "days_stock_cover": 8.286363636363637,
+      "rakes_received": 3,
+      "generation_mu": 55.024,
+      "plf_pct": 87.17363751584284,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    },
+    {
+      "plant": "Obra B",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 301333,
+      "opening_balance": 273146,
+      "receipt": 5742,
+      "consumption_release": 13935,
+      "closing_balance": 264953,
+      "days_stock_cover": 16.057757575757577,
+      "rakes_received": 4,
+      "generation_mu": 15.313,
+      "plf_pct": 63.804166666666674,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    },
+    {
+      "plant": "Obra C",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 356000,
+      "opening_balance": 86199,
+      "receipt": 9074,
+      "consumption_release": 17437,
+      "closing_balance": 77836,
+      "days_stock_cover": 4.324222222222223,
+      "rakes_received": null,
+      "generation_mu": 27.249,
+      "plf_pct": 86.01325757575758,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    },
+    {
+      "plant": "Harduaganj",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 403667,
+      "opening_balance": 185453,
+      "receipt": 22754,
+      "consumption_release": 17060,
+      "closing_balance": 191147,
+      "days_stock_cover": 10.388423913043479,
+      "rakes_received": 6,
+      "generation_mu": 23.033,
+      "plf_pct": 75.56758530183727,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    },
+    {
+      "plant": "Parichha",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 354667,
+      "opening_balance": 114097,
+      "receipt": 20160,
+      "consumption_release": 10909,
+      "closing_balance": 123348,
+      "days_stock_cover": 8.686478873239437,
+      "rakes_received": 5,
+      "generation_mu": 14.956,
+      "plf_pct": 67.73550724637681,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    },
+    {
+      "plant": "Jawaharpur",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 402000,
+      "opening_balance": 220734,
+      "receipt": 20002,
+      "consumption_release": 16362,
+      "closing_balance": 224374,
+      "days_stock_cover": 12.465222222222222,
+      "rakes_received": 5,
+      "generation_mu": 24.57,
+      "plf_pct": 77.55681818181819,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    },
+    {
+      "plant": "Panki Extn",
+      "report_date": "2026-06-30 00:00:00",
+      "fuel_type": "COAL",
+      "monthly_linkage": 205667,
+      "opening_balance": 79705,
+      "receipt": 6500,
+      "consumption_release": 9595,
+      "closing_balance": 76610,
+      "days_stock_cover": 8.512222222222222,
+      "rakes_received": 2,
+      "generation_mu": 14.539,
+      "plf_pct": 91.78661616161617,
+      "reconciliation_flag": false,
+      "reconciliation_delta": 0
+    }
+  ],
+  "constraints": [
+    {
+      "plant": "Anpara",
+      "company": "NCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 118.64,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Harduaganj Extn-II",
+      "company": "CCL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 12.33,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Harduaganj Extn-II",
+      "company": "SECL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 13.59,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Harduaganj",
+      "company": "BCCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 2.82,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Harduaganj",
+      "company": "CCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 21.69,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Jawaharpur",
+      "company": "BCCL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 10.03,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Jawaharpur",
+      "company": "ECL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 11.05,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Obra",
+      "company": "BCCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 0.0,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Jawaharpur",
+      "company": "SECL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 27.17,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Obra",
+      "company": "NCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 36.18,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Obra C",
+      "company": "BCCL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 20.05,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Parichha",
+      "company": "CCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 8.08,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Obra C",
+      "company": "NCL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 22.69,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    },
+    {
+      "plant": "Parichha",
+      "company": "NCL",
+      "linkage_type": "FSA",
+      "acq_lac_mt": 32.47,
+      "valid_to": null,
+      "source_clause": "FSA and Bridge Linkage Details 2026-27, Sheet1"
+    },
+    {
+      "plant": "Panki Extn",
+      "company": "CCL",
+      "linkage_type": "BRIDGE_LINKAGE",
+      "acq_lac_mt": 24.66,
+      "valid_to": "12.08.2026",
+      "source_clause": "Bridge Linkage Valid till 12.08.2026"
+    }
+  ],
+  "generated_from": "FSA and Bridge Linkage Details 2026-27.xlsx, VC for last 5 months for UNL and IPPs.xlsx, june26.xlsx (daily report 30.06.2026)"
+}
