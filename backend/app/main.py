@@ -21,6 +21,7 @@ from app.modules.recommendations.router import router as recommendations_router
 from app.modules.scheduler.jobs import shutdown_scheduler, start_scheduler
 from app.modules.scheduler.router import router as scheduler_router
 from app.modules.validation.router import router as validation_router
+from app.modules.imports.router import router as imports_router
 
 from app.core.middleware import PasswordGateMiddleware
 
@@ -84,3 +85,4 @@ app.include_router(optimization_router, prefix=_prefix)
 app.include_router(recommendations_router, prefix=_prefix)
 app.include_router(dashboard_router, prefix=_prefix)
 app.include_router(scheduler_router, prefix=_prefix)
+app.include_router(imports_router, prefix=_prefix)
