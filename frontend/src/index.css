@@ -91,26 +91,27 @@ body::before {
 /* ── Sidebar ── */
 .sidebar {
   width: 256px;
-  min-height: 100vh;
+  height: 100vh;
   background: var(--surface);
   border-right: 2px solid var(--border);
   display: flex;
   flex-direction: column;
-  padding: 28px 0;
+  padding: 0;                         /* removed global padding; sections own their padding */
   position: fixed;
   left: 0; top: 0; bottom: 0;
   z-index: 100;
   box-shadow: 2px 0 12px rgba(0,0,0,0.06);
+  overflow: hidden;                   /* prevents any horizontal bleed */
 }
 
 .sidebar-logo {
-  padding: 0 22px 28px;
+  padding: 28px 22px 20px;            /* restored top padding that was on .sidebar */
   border-bottom: 1px solid var(--border);
-  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
+  flex-shrink: 0;                     /* never compress; stays fixed at top */
 }
 
 .sidebar-logo-img {
@@ -152,8 +153,30 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  padding: 0 14px;
+  padding: 12px 14px;                 /* top/bottom breathing room inside scroll area */
   flex: 1;
+  overflow-y: auto;                   /* enables mouse-wheel / touchpad / touch scroll */
+  overflow-x: hidden;                 /* no horizontal scroll bleed */
+  /* Custom thin scrollbar — webkit */
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: var(--border-bright) transparent;
+}
+
+/* Webkit custom scrollbar scoped to the nav only */
+.sidebar-nav::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar-nav::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+.sidebar-nav::-webkit-scrollbar-thumb {
+  background: var(--border-bright);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+.sidebar-nav::-webkit-scrollbar-thumb:hover {
+  background: var(--amber);
 }
 
 .nav-btn {
@@ -206,9 +229,9 @@ body::before {
 }
 
 .sidebar-footer {
-  padding: 18px 22px 0;
+  padding: 18px 22px 20px;            /* restored bottom padding */
   border-top: 1px solid var(--border);
-  margin-top: auto;
+  flex-shrink: 0;                     /* never compress; stays fixed at bottom */
 }
 
 .status-pill {
